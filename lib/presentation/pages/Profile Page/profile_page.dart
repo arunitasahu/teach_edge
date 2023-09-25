@@ -95,7 +95,7 @@ class ProfilePage extends StatelessWidget {
                 const Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    '   Feedback :',
+                    ' Feedback :',
                     style: TextStyle(
                       fontSize: 25.0,
                       fontFamily: 'Lato',
@@ -110,12 +110,15 @@ class ProfilePage extends StatelessWidget {
                 // Updated badge layout in a column
                 Column(
                   children: [
-                    _buildBadgeContainerWithText('Efforts', 'images/badge1.png'),
-                    _buildBadgeContainerWithText('Communication', 'images/badge2.png'),
-                    _buildBadgeContainerWithText('Planning', 'images/badge3.png'),
+                    _buildBadgeContainerWithText(
+                        'Efforts', 'images/badge1.png'),
+                    _buildBadgeContainerWithText(
+                        'Communication', 'images/badge2.png'),
+                    _buildBadgeContainerWithText(
+                        'Planning', 'images/badge3.png'),
                     SizedBox(height: 8),
-                    // Box with the "Badge" heading
-                    _buildBadgeBoxWithHeading('Badge '),
+                    // Box with the badge image
+                    _buildBadgeBoxWithHeading(),
                   ],
                 ),
               ],
@@ -149,7 +152,7 @@ class ProfilePage extends StatelessWidget {
     );
   }
 
-  Widget _buildBadgeBoxWithHeading(String heading) {
+  Widget _buildBadgeBoxWithHeading() {
     return Container(
       decoration: BoxDecoration(
         color: Colors.white,
@@ -159,13 +162,7 @@ class ProfilePage extends StatelessWidget {
       padding: const EdgeInsets.all(16),
       child: Column(
         children: [
-          Text(
-            heading,
-            style: TextStyle(
-              fontSize: 16,
-              fontWeight: FontWeight.bold,
-            ),
-          ),
+          // Removed the "Badge" heading text
           SizedBox(height: 8),
           // Add the badge image here
           Image.asset(
