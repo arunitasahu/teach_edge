@@ -57,7 +57,7 @@ class _AnnouncementPageState extends State<AnnouncementPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Assignment Page'),
+        title: Text(' Personalized Courses Page'),
         backgroundColor: Color(0xffb3e5f7), // Set the AppBar background color
       ),
       body: SingleChildScrollView(

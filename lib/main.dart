@@ -1,6 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:teach_edge/presentation/pages/Profile%20Page/profile_page.dart';
 import 'package:teach_edge/presentation/pages/announcement_page/announcement_page.dart';
+import 'package:teach_edge/presentation/pages/forum/forum.dart';
+import 'package:teach_edge/presentation/pages/login_page.dart';
+import 'package:teach_edge/presentation/pages/register_page.dart';
+import 'package:teach_edge/presentation/pages/splash_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -90,7 +94,50 @@ class _MyHomePageState extends State<MyHomePage> {
                   ),
                 );
               },
-              child: const Text('Go to Assignment Page'),
+              child: const Text('Go to  personalized courses Page'),
+            ),
+            ElevatedButton(
+              onPressed: () {
+                Navigator.of(context).push(
+                  MaterialPageRoute(
+                    builder: (context) => LoginPage(),
+                  ),
+                );
+              },
+              child: Text('Go to Login Page'),
+            ),
+            ElevatedButton(
+              onPressed: () {
+                Navigator.of(context).push(
+                  MaterialPageRoute(
+                    builder: (context) => RegisterPage(),
+                  ),
+                );
+              },
+              child: Text('Go to Register Page'),
+            ),
+            ElevatedButton(
+              onPressed: () {
+                Navigator.of(context).push(
+                  MaterialPageRoute(
+                    builder: (context) => SplashScreen(),
+                  ),
+                );
+              },
+              child: Text('Go to Splash screen'),
+            ),
+
+
+
+            ElevatedButton(
+              onPressed: () {
+                Navigator.of(context).push(
+                  MaterialPageRoute(
+                    builder: (context) => ForumPage(),
+                  ),
+                );
+              },
+              child: const Text('Go to Forum Page'),
             ),
           ],
         ),
