@@ -90,7 +90,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   ),
                 );
               },
-              child: const Text('Go to Announcement Page'),
+              child: const Text('Go to Assignment Page'),
             ),
           ],
         ),
