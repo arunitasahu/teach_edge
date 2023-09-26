@@ -60,8 +60,7 @@ class _AnnouncementPageState extends State<AnnouncementPage> {
       backgroundColor: primaryColor,
       appBar: AppBar(
         title: const Text(' Personalized Courses '),
-        backgroundColor: Color.fromARGB(
-            255, 255, 240, 200), // Set the AppBar background color
+        backgroundColor: Colors.brown, // Set the AppBar background color
       ),
       body: SingleChildScrollView(
         padding: const EdgeInsets.all(16.0),

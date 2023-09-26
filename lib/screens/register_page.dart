@@ -19,7 +19,7 @@ class _RegisterPageState extends State<RegisterPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: const Color(0xffb3e5f7),
+      backgroundColor: Colors.brown[100],
       body: SafeArea(
         child: Center(
           child: Padding(

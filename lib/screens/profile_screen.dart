@@ -24,7 +24,7 @@ class ProfilePage extends StatelessWidget {
         backgroundColor: primaryColor,
         appBar: AppBar(
           title: const Text('Profile Page'),
-          backgroundColor: const Color.fromARGB(255, 255, 240, 200),
+          backgroundColor: Colors.brown,
         ),
         body: Container(
           child: SingleChildScrollView(

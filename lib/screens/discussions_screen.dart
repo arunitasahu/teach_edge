@@ -16,7 +16,7 @@ class ForumPage extends StatelessWidget {
     return Scaffold(
       backgroundColor: primaryColor,
       appBar: AppBar(
-        backgroundColor: Color.fromARGB(255, 255, 240, 200),
+        backgroundColor: Colors.brown,
         title: const Text('Class Forum'),
       ),
       body: ListView.builder(

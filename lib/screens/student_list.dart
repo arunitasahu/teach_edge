@@ -12,7 +12,7 @@ class StudentList extends StatelessWidget {
     return SafeArea(
       child: Scaffold(
         appBar: AppBar(
-          backgroundColor: Color.fromARGB(255, 255, 240, 200),
+          backgroundColor: Colors.brown,
           title: Text(
             'List of Students',
             style: GoogleFonts.lato(fontWeight: FontWeight.bold, fontSize: 20),

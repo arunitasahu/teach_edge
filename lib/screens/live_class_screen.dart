@@ -69,7 +69,7 @@ class _LiveClassState extends State<LiveClass> {
     return Scaffold(
       backgroundColor: primaryColor,
       appBar: AppBar(
-          backgroundColor: Color.fromARGB(255, 255, 240, 200),
+          backgroundColor: Colors.brown,
           title: Text(
             'Live Class',
             style: GoogleFonts.lato(fontWeight: FontWeight.bold),
