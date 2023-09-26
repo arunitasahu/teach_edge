@@ -81,7 +81,7 @@ class _LiveClassState extends State<LiveClass> {
 
               child: Text(
                 'New Class',
-                style: GoogleFonts.lato(fontSize: 20, color: Colors.black38),
+                style: GoogleFonts.lato(fontSize: 20, color: Colors.black54),
               ),
             )
           ]),
