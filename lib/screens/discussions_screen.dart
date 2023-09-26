@@ -77,7 +77,7 @@ class _ClassDetailsPageState extends State<ClassDetailsPage> {
       child: Scaffold(
         backgroundColor: primaryColor,
         appBar: AppBar(
-          backgroundColor: Color.fromARGB(255, 255, 240, 200),
+          backgroundColor: Colors.brown[100],
           title: Text(widget.classObj.name),
           bottom: const TabBar(
             tabs: [
